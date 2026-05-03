@@ -320,7 +320,7 @@ void cmd_help(void)
 
 int main(void)
 {
-    //ensure root exists
+    //ensure root exist
     mkdir(FS_ROOT, 0755);
 
     print_banner();
